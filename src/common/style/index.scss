@@ -1,0 +1,34 @@
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.cl:before, .cl:after {
+  content: ' ';
+  display: table;
+}
+
+.cl:after {
+  clear: both;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.overhide {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
